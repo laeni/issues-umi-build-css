@@ -1,0 +1,13 @@
+/* 示例 */
+
+.grayscale-1 {
+    --tw-grayscale: grayscale(100%);
+    filter: var(--tw-grayscale)
+}
+
+.grayscale-2 {
+    /* 该变量没有值，会导致build后之后将其删除 */
+    --tw-xxx: ;
+    --tw-grayscale: grayscale(100%);
+    filter: var(--tw-xxx) var(--tw-grayscale)
+}

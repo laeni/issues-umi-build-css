@@ -5,8 +5,4 @@ export default defineConfig({
     type: 'none',
   },
   fastRefresh: {},
-  // Using PostCSS
-  // extraPostCSSPlugins: [
-  //   require('tailwindcss')(),
-  // ],
 });
